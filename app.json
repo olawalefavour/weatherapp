@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "WeatherApp",
+    "slug": "weatherapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/background_night.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/images/background_night.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0A"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourname.weatherapp"
+    },
+    "android": {
+ "android": {
+  "backgroundColor": "#0A0A0A",
+  "package": "com.yourname.weatherapp"
+},
+      "package": "com.yourname.weatherapp"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow WeatherApp to use your location."
+        }
+      ]
+    ],
+    "scheme": "weatherapp"
+  }
+}
